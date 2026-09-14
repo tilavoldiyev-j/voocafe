@@ -214,3 +214,37 @@ if (reservationForm) {
     });
 
 }
+
+
+// ===============================
+// MENYU TABLARI
+// ===============================
+
+const menuTabs = document.querySelectorAll(".menu-tab");
+const menuItems = document.querySelectorAll(".menu-item");
+
+menuTabs.forEach(function (tab) {
+
+    tab.addEventListener("click", function () {
+
+        const category = tab.dataset.category;
+
+        menuTabs.forEach(function (t) {
+            t.classList.remove("active");
+        });
+
+        tab.classList.add("active");
+
+        menuItems.forEach(function (item) {
+
+            if (item.dataset.category === category) {
+                item.style.display = "";
+            } else {
+                item.style.display = "none";
+            }
+
+        });
+
+    });
+
+});

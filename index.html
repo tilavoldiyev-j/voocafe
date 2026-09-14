@@ -74,13 +74,188 @@
 
             </div>
 
-            <div class="hero-scroll">
 
-                <span>SCROLL</span>
+            <!-- RESERVATION (hero ustida) -->
+            <section id="reservation" class="reservation reservation--hero">
 
-                <span class="scroll-line"></span>
+                <div class="reservation-box">
 
-            </div>
+                    <div class="reservation-header">
+
+                        <p class="section-label">
+                            VOO! CAFE · ANDIJAN
+                        </p>
+
+                        <h2>
+                            STOL BAND QILISH
+                        </h2>
+
+                        <p class="reservation-info">
+                            Restoran Voo! Cafe — Andijon<br>
+                            Mashrab ko‘chasi, Eco Park<br>
+                            24/7
+                        </p>
+
+                    </div>
+
+
+                    <form class="reservation-form">
+
+
+                        <!-- ISM + TELEFON -->
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="name">
+                                    Kim band qilyapti:
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Ismingiz"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="phone">
+                                    Telefon raqami:
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="+998 XX XXX XX XX"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- EMAIL -->
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Elektron pochta:
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="E-mail xxxxxxxxxx@xxxxx.com"
+                            >
+
+                        </div>
+
+
+                        <!-- MEHMONLAR + SANA -->
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label>
+                                    Mehmonlar miqdori:
+                                </label>
+
+                                <div class="guest-counter">
+
+                                    <button
+                                        type="button"
+                                        class="counter-button"
+                                        id="minusGuest"
+                                    >
+                                        −
+                                    </button>
+
+                                    <span id="guestCount">
+                                        1
+                                    </span>
+
+                                    <button
+                                        type="button"
+                                        class="counter-button"
+                                        id="plusGuest"
+                                    >
+                                        +
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="date">
+                                    Tashrif sanasi:
+                                </label>
+
+                                <input
+                                    type="date"
+                                    id="date"
+                                    name="date"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- IZOH -->
+
+                        <div class="form-group">
+
+                            <label for="comment">
+                                Izohlar:
+                            </label>
+
+                            <textarea
+                                id="comment"
+                                name="comment"
+                                placeholder="Istaklaringiz yoki qo‘shimcha ma’lumot..."
+                                rows="3"
+                            ></textarea>
+
+                        </div>
+
+
+                        <!-- SUBMIT -->
+
+                        <div class="reservation-submit">
+
+                            <button
+                                type="submit"
+                                class="reservation-button"
+                            >
+                                Ariza qoldirish
+                            </button>
+
+                            <p class="reservation-note">
+                                Arizangiz qabul qilingandan so‘ng
+                                administratorimiz siz bilan bog‘lanadi.
+                            </p>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </section>
 
         </section>
 
@@ -220,205 +395,191 @@
         </section>
 
 
-        <!-- TEMPORARY MENU -->
-        <section id="menu" class="placeholder">
-            <h2>Menyu</h2>
-        </section>
-
-
-        <!-- TEMPORARY GALLERY -->
-        <section id="gallery" class="placeholder">
-            <h2>Galereya</h2>
-        </section>
-
-
-        <!-- TEMPORARY RESERVATION -->
         <!-- =========================
-     RESERVATION
+     MENU
 ========================= -->
 
-<section id="reservation" class="reservation">
+        <section id="menu" class="menu">
 
-    <div class="reservation-overlay"></div>
-
-    <div class="reservation-box">
-
-        <div class="reservation-header">
-
-            <p class="section-label">
-                VOO! CAFE · ANDIJAN
-            </p>
-
-            <h2>
-                STOL BAND QILISH
-            </h2>
-
-            <p class="reservation-info">
-                Restoran Voo! Cafe — Andijon<br>
-                Mashrab ko‘chasi, Eco Park<br>
-                24/7
-            </p>
-
-        </div>
-
-
-        <form class="reservation-form">
-
-
-            <!-- ISM + TELEFON -->
-
-            <div class="form-row">
-
-                <div class="form-group">
-
-                    <label for="name">
-                        Kim band qilyapti:
-                    </label>
-
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Ismingiz"
-                        required
-                    >
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="phone">
-                        Telefon raqami:
-                    </label>
-
-                    <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        placeholder="+998 XX XXX XX XX"
-                        required
-                    >
-
-                </div>
-
+            <div class="menu-header">
+                <span class="section-label">MENYU</span>
+                <h2>Taomlarimiz</h2>
             </div>
 
-
-            <!-- EMAIL -->
-
-            <div class="form-group">
-
-                <label for="email">
-                    Elektron pochta:
-                </label>
-
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="E-mail xxxxxxxxxx@xxxxx.com"
-                >
-
-            </div>
-
-
-            <!-- MEHMONLAR + SANA -->
-
-            <div class="form-row">
-
-                <div class="form-group">
-
-                    <label>
-                        Mehmonlar miqdori:
-                    </label>
-
-                    <div class="guest-counter">
-
-                        <button
-                            type="button"
-                            class="counter-button"
-                            id="minusGuest"
-                        >
-                            −
-                        </button>
-
-                        <span id="guestCount">
-                            1
-                        </span>
-
-                        <button
-                            type="button"
-                            class="counter-button"
-                            id="plusGuest"
-                        >
-                            +
-                        </button>
-
-                    </div>
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="date">
-                        Tashrif sanasi:
-                    </label>
-
-                    <input
-                        type="date"
-                        id="date"
-                        name="date"
-                        required
-                    >
-
-                </div>
-
-            </div>
-
-
-            <!-- IZOH -->
-
-            <div class="form-group">
-
-                <label for="comment">
-                    Izohlar:
-                </label>
-
-                <textarea
-                    id="comment"
-                    name="comment"
-                    placeholder="Istaklaringiz yoki qo‘shimcha ma’lumot..."
-                    rows="4"
-                ></textarea>
-
-            </div>
-
-
-            <!-- SUBMIT -->
-
-            <div class="reservation-submit">
-
-                <button
-                    type="submit"
-                    class="reservation-button"
-                >
-                    Ariza qoldirish
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="nonushta">
+                    <span class="menu-tab-img" style="background-image:url('images/hero.webp');"></span>
+                    <span class="menu-tab-label">Nonushta</span>
                 </button>
+                <button class="menu-tab" data-category="asosiy">
+                    <span class="menu-tab-img" style="background-image:url('images/about.webp');"></span>
+                    <span class="menu-tab-label">Asosiy taomlar</span>
+                </button>
+                <button class="menu-tab" data-category="salatlar">
+                    <span class="menu-tab-img" style="background-image:url('images/hero.webp');"></span>
+                    <span class="menu-tab-label">Salatlar</span>
+                </button>
+                <button class="menu-tab" data-category="ichimliklar">
+                    <span class="menu-tab-img" style="background-image:url('images/about.webp');"></span>
+                    <span class="menu-tab-label">Ichimliklar</span>
+                </button>
+                <button class="menu-tab" data-category="desertlar">
+                    <span class="menu-tab-img" style="background-image:url('images/hero.webp');"></span>
+                    <span class="menu-tab-label">Desertlar</span>
+                </button>
+            </div>
 
-                <p class="reservation-note">
-                    Arizangiz qabul qilingandan so‘ng
-                    administratorimiz siz bilan bog‘lanadi.
-                </p>
+            <div class="menu-grid">
+
+                <div class="menu-item" data-category="nonushta">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">45 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="nonushta">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">38 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="nonushta">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">32 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="asosiy" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">65 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="asosiy" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">72 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="asosiy" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">58 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="salatlar" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">35 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="salatlar" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">40 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="ichimliklar" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">18 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="ichimliklar" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">22 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="ichimliklar" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">15 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="desertlar" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">28 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
+
+                <div class="menu-item" data-category="desertlar" style="display:none;">
+                    <div class="menu-item-top">
+                        <h3>Taom nomi</h3>
+                        <span class="menu-item-price">30 000 so'm</span>
+                    </div>
+                    <p class="menu-item-desc">Taom haqida qisqacha tavsif shu yerga yoziladi.</p>
+                </div>
 
             </div>
 
-        </form>
+        </section>
 
-    </div>
 
-</section>
+        <!-- =========================
+     GALLERY
+========================= -->
+
+        <section id="gallery" class="gallery">
+
+            <div class="gallery-header">
+                <span class="section-label">GALEREYA</span>
+                <h2>Voo! lahzalari</h2>
+            </div>
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item wide tall">
+                    <img src="images/hero.webp" alt="Voo! Cafe">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/about.webp" alt="Voo! Cafe">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/about.webp" alt="Voo! Cafe">
+                </div>
+
+                <div class="gallery-item wide">
+                    <img src="images/hero.webp" alt="Voo! Cafe">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/about.webp" alt="Voo! Cafe">
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/hero.webp" alt="Voo! Cafe">
+                </div>
+
+            </div>
+
+        </section>
 
 
         <!-- TEMPORARY CONTACT -->
